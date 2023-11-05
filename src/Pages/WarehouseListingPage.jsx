@@ -7,6 +7,7 @@ import "./WarehouseListingStyles.css";
 import AllWarehouses from "./AllWarehouses";
 import Navbar from "../Components/Navbar";
 import FilteredWsrehouses from "../Components/FilteredWsrehouses";
+import WarehouseNotFound from "../Components/WarehouseNotFound";
 
 const WarehouseListingPage = () => {
   const [showSpinner, setShowSpinner] = useState(true);
@@ -35,11 +36,13 @@ const WarehouseListingPage = () => {
             {showSpinner ? (
               <Spinner />
             ) : (
-              <AllWarehouses
+              <>
+              {searchedResults.length === 0 && searched ? <WarehouseNotFound /> : <><AllWarehouses
                 records={
                   searched ? searchedResults : isFilter ? filteredResults : data
                 }
-              />
+              /></>}
+              </>
             )}
           </div>
           <div className="col-lg-3 text-left">

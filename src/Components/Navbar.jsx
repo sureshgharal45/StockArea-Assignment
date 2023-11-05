@@ -1,10 +1,9 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { searchWarehouse } from "../Actions/warehouseAction";
 import { useAlert } from "react-alert";
 
 const Navbar = () => {
   const dispatch = useDispatch();
-  const { searchedResults } = useSelector((state) => state.searchWarehouse);
   const alert = useAlert();
   const handleSearch = (e) => {
     e.preventDefault();
@@ -15,10 +14,6 @@ const Navbar = () => {
       alert.error("please provide Warehouse Name to search");
     }
     dispatch(searchWarehouse(searchCriteria));
-
-    if (searchedResults.length === 0) {
-      alert.error("No Warehouse Found.");
-    }
   };
 
   return (
