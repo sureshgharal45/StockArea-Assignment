@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# project: StockArea-Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Folder Structure
+# Main proejct folder
+ 1. gitignore
+ 2. package.json
+ 3. package-lock.json
+ 4. README.md
 
-## Available Scripts
+# Public
+ 1. favicon.io
+ 2. index.html
+ 3. manifest.json
+ 4. robots.txt
 
-In the project directory, you can run:
+# src
+ 1. App.js
+ 2. App.css
+ 3. index.js
+ 4. index.css
+ 5. store.js
+ 6. warehouseData.json
 
-### `npm start`
+# Components
+  1. Navbar.jsx
+  2. Spinner.jsx
+  3. Spinner.css
+  4. FilteredWarehouse.jsx
+  5. FilteredWarehouseStyles.css
+  6. WarehouseNotFound.jsx
+  7. WarehouseNotFound.css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Pages
+  1. AllWarehouses.jsx
+  2. WarehouseListingPage.jsx
+  3. WarehouseListingStyles.css
+  4. WarehouseDetails.jsx
+  5. WarehouseDetailsStyles.css
+  6. UpdateWarehouse.jsx
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Actions
+  1. WarehouseAction.jsx
 
-### `npm test`
+# Constants
+  1. WarehouseConstants.jsx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Reducers
+  1. WarehouseReducer.jsx
 
-### `npm run build`
+# About project
+The list pf Warehouses where we can get the data about them, we can update the warehouse, Search the warehouse using search input also on the basis of some fields like (city, cluster, space_available). We can get the details of single warehouse as well by clicking on them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Technologies used
+HTML5, CSS3, Bootstrap5, MaterialUI, JavaScript, ReactJS, Redux, react-router-dom, react-alerts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Features
+1. To update the specific Warehouse from the list.
+2. To get individual details of the Warehouse.
+3. Search on the basis of Search input and some fields like city, cluster and space_available.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Project Preview
+List Warehouses screen:
+<img width="948" alt="ListScreen" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/78947204-93eb-4d4e-a6b0-e93af2343711">
 
-### `npm run eject`
+Specific Warehouse Details screen:
+<img width="960" alt="SpecificWarehouseDetailsPage" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/a39c7820-43c4-47e4-b39d-c66ec09c7883">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Update Warehouse screen:
+<img width="960" alt="UpdateWarehouseScreen" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/c2050f1f-08d7-4598-95b2-ed1d463be67c">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Setup
+Followig are the requirements to run this project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Node Package Manager (NPM) React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Usage (How to start the project)
+To run this project in your device, download the repository and open terminal in your editor and run command… npm start.
 
-## Learn More
+# Project status
+Completed and open for your contributions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
