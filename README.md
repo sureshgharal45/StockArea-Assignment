@@ -48,7 +48,7 @@
   1. WarehouseReducer.jsx
 
 # About project
-The list pf Warehouses where we can get the data about them, we can update the warehouse, Search the warehouse using search input also on the basis of some fields like (city, cluster, space_available). We can get the details of single warehouse as well by clicking on them.
+The list of Warehouses where we can get the data about them, we can update the warehouse, Search the warehouse using search input also on the basis of some fields like (city, cluster, space_available). We can get the details of single warehouse as well by clicking on them.
 
 # Technologies used
 HTML5, CSS3, Bootstrap5, MaterialUI, JavaScript, ReactJS, Redux, react-router-dom, react-alerts.
@@ -60,7 +60,7 @@ HTML5, CSS3, Bootstrap5, MaterialUI, JavaScript, ReactJS, Redux, react-router-do
 
 # Project Preview
 List Warehouses screen:
-<img width="948" alt="ListScreen" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/78947204-93eb-4d4e-a6b0-e93af2343711">
+<img width="946" alt="ListScreen" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/8baf3234-6964-4c61-86e9-ecaadf7d28d8">
 
 Specific Warehouse Details screen:
 <img width="960" alt="SpecificWarehouseDetailsPage" src="https://github.com/sureshgharal45/StockArea-Assignment/assets/79570808/a39c7820-43c4-47e4-b39d-c66ec09c7883">
